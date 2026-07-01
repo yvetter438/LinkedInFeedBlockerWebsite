@@ -277,13 +277,13 @@ body {
     4px 4px 0 0 var(--color-surface),
     6px 6px 0 0 var(--color-accent),
     var(--color-panel-shadow);
-  overflow: hidden;
+  margin-top: var(--space-4);
 }
 
 .demo-panel::before {
   content: 'video.demo';
   position: absolute;
-  top: -1px;
+  top: 0;
   left: var(--space-4);
   transform: translateY(-50%);
   font-family: var(--font-mono);
@@ -334,6 +334,7 @@ body {
   width: 100%;
   height: auto;
   background: #1a1a2e;
+  border-radius: 0 0 6px 6px;
 }
 
 /* ===================================================
