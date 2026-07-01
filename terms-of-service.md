@@ -1,6 +1,6 @@
 # Terms of Service - LinkedIn Feed Blocker
 
-**Last Updated: [DATE]**
+**Last Updated: June 30, 2026**
 
 ## 1. Acceptance of Terms
 
@@ -42,7 +42,7 @@ We encourage you to contact us before initiating a chargeback. Fraudulent charge
 
 ## 5. Intellectual Property
 
-The Extension, including all code, design, and documentation, is the intellectual property of [YOUR NAME/COMPANY]. All rights not explicitly granted are reserved.
+The Extension, including all code, design, and documentation, is the intellectual property of Yannick Vetter. All rights not explicitly granted are reserved.
 
 ## 6. Disclaimer of Warranties
 
@@ -82,7 +82,7 @@ We may modify these Terms at any time. Continued use of the Extension after chan
 
 ## 11. Governing Law
 
-These Terms shall be governed by the laws of [YOUR STATE/COUNTRY], without regard to conflict of law principles.
+These Terms shall be governed by the laws of the State of Washington, United States of America, without regard to conflict of law principles.
 
 ## 12. Severability
 

@@ -1,6 +1,6 @@
 # Privacy Policy - LinkedIn Feed Blocker
 
-**Last Updated: [DATE]**
+**Last Updated: June 30, 2026**
 
 ## Overview
 
