@@ -1036,6 +1036,11 @@ body {
   margin: 0 auto var(--space-10);
 }
 
+.pricing-grid-single {
+  grid-template-columns: 1fr;
+  max-width: 400px;
+}
+
 .pricing-card {
   position: relative;
   background: var(--color-surface);
@@ -1099,6 +1104,11 @@ body {
   font-weight: 600;
   letter-spacing: -0.03em;
   color: var(--color-text);
+}
+
+.price-amount-text {
+  font-size: 1.35rem;
+  letter-spacing: -0.02em;
 }
 
 .price-note {
@@ -1201,7 +1211,7 @@ body {
 .pricing-table th:not(:first-child),
 .pricing-table td:not(:first-child) {
   text-align: center;
-  width: 100px;
+  width: 120px;
 }
 
 .pricing-faq {
