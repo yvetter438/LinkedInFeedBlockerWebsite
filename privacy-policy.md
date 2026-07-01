@@ -63,7 +63,7 @@ We may update this privacy policy from time to time. We will notify users of any
 
 ## Contact
 
-For privacy-related questions, contact: [YOUR EMAIL]
+For privacy-related questions, contact: yannick.vetter@outlook.com
 
 ---
 

@@ -27,7 +27,7 @@ This site is a static HTML site — no build step required.
 Replace these placeholders across the site and markdown files:
 
 - `[DATE]` — last updated date
-- `YOUR_EMAIL` — support contact email
+- Support email: `yannick.vetter@outlook.com`
 - `[YOUR NAME/COMPANY]` — in Terms of Service
 - `[YOUR STATE/COUNTRY]` — governing law
 - Chrome Web Store link — update the "Add to Chrome" buttons in `index.html`

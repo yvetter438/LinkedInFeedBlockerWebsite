@@ -22,7 +22,7 @@ The Extension is sold as a one-time purchase. There are no recurring fees or sub
 
 ### Refund Policy
 - Refunds are handled on a case-by-case basis at the developer's discretion.
-- To request a refund, contact the developer at [YOUR EMAIL] with your order number and a brief explanation.
+- To request a refund, contact the developer at yannick.vetter@outlook.com with your order number and a brief explanation.
 - Approved refunds will be processed through the original payment method.
 
 ### No Chargebacks
@@ -94,7 +94,7 @@ These Terms constitute the entire agreement between you and us regarding the Ext
 
 ## 14. Contact
 
-For questions about these Terms, contact: [YOUR EMAIL]
+For questions about these Terms, contact: yannick.vetter@outlook.com
 
 ---
 
