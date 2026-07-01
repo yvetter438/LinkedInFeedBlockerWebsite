@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A breakdown of how LinkedIn's feed algorithm actually works, based on LinkedIn's own engineering research on dwell time and ranking signals.">
+  <title>LinkedIn Algorithm 101: How the Feed Decides What Keeps You Hooked | LinkedIn Feed Blocker</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="../index.html" class="logo">LinkedIn Feed Blocker</a>
+      <ul class="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../index.html#features">Features</a></li>
+        <li><a href="../index.html#how-it-works">How it works</a></li>
+        <li><a href="../guides/index.html">Guides</a></li>
+        <li><a href="index.html">Insights</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="article-page">
+    <div class="container">
+      <a href="index.html" class="back-link">&larr; All insights</a>
+      <article>
+        <header class="article-header">
+          <h1>LinkedIn Algorithm 101: How the Feed Decides What Keeps You Hooked</h1>
+          <p class="article-lead">The posts in your LinkedIn feed weren't chosen by chance, and they weren't chosen purely by recency either. LinkedIn runs every post through a ranking system that decides, individually for each viewer, what to show and in what order. Understanding how that system works explains a lot about why the feed is so hard to put down.</p>
+        </header>
+
+        <div class="article-body">
+          <h2>The three-stage filter</h2>
+          <p>According to LinkedIn's own engineering research and its public guidance to creators, a post generally moves through three stages before it reaches a wide audience. First, a spam and quality filter screens out posts that violate guidelines or look low-value. Second, the post is shown to a small sample of the author's network to test how people respond. Third, if that early sample engages strongly, the post gets pushed out further, to second and third-degree connections beyond the author's direct network.</p>
+          <p>That middle stage is where dwell time comes in. LinkedIn has published its own research on exactly how it works, and it is central to what ends up in your feed.</p>
+
+          <h2>What dwell time measures, in LinkedIn's own words</h2>
+          <p>LinkedIn's engineering blog describes a ranking challenge the platform faced: clicks and likes are useful signals, but they're noisy. Someone might click an article, realize in two seconds it's irrelevant, and bounce straight back to the feed. LinkedIn's research team calls this a "click bounce," and it doesn't reflect genuine interest even though it registers as an interaction.</p>
+          <p>To get a cleaner signal, LinkedIn's researchers looked at dwell time: how long a post stays visible on someone's screen as they scroll, and how long someone stays on a post if they click into it. Their research identified a natural threshold, which they call Tskip, that separates posts a viewer is genuinely engaging with from posts they're quickly scrolling past. LinkedIn found this same threshold works consistently across very different post types (text, images, video), meaning people make a "worth my time or not" decision within a similar window regardless of format.</p>
+          <p>After LinkedIn incorporated dwell time into its ranking model and tested it, the company reported a meaningful drop in skipped posts and a rise in time spent actively engaging with the feed. Optimizing for how long people linger measurably worked at keeping people on the feed longer.</p>
+
+          <h2>What that means for the content you see</h2>
+          <p>Because dwell time is such a strong ranking signal, the format of a post matters as much as its content. Longer text posts, document carousels, and native video tend to hold attention longer than a short text update or an outbound link, so LinkedIn's algorithm tends to favor them. Posts with outbound links tend to see reduced distribution, since a click that takes someone off LinkedIn entirely works against the platform's goal of keeping people on-site.</p>
+          <p>Comments are also weighted more heavily than reactions like "Like" or "Celebrate," since a comment requires more effort and signals stronger engagement than a passive tap. Posts that pick up comments within the first hour or two after posting are more likely to get pushed to a wider audience, which is why creators are often advised to post when their audience is active and to reply to early comments quickly.</p>
+
+          <h2>Why this matters if you're just trying to use LinkedIn, not grow on it</h2>
+          <p>Ranking for attention and dwell time is a rational way to build a feed that keeps people coming back, and it works. As a user, though, it helps to know what you are looking at: every post you see was selected, in part, because the system predicted it would hold your attention longer than the alternative. The feed is ranked and tuned to maximize how long you stay on it. It is not a neutral chronological list of what your network posted.</p>
+
+          <h2>The practical takeaway</h2>
+          <p>The feed is built around a measurable goal: keeping you there longer. Out-disciplining a system designed by people who study attention for a living is a weak bet. A more reliable approach is to remove the feed from the equation. That is the idea behind <a href="https://yvetter438.github.io/LinkedInFeedBlockerWebsite/">LinkedIn Feed Blocker</a>: messaging, job search, and your profile stay fully functional, while the ranked, dwell-time-optimized feed is hidden during the hours you set.</p>
+
+          <p class="article-sources"><strong>Sources referenced:</strong> LinkedIn Engineering, "Understanding Dwell Time to Improve LinkedIn Feed Ranking" (LinkedIn's official engineering blog); publicly available LinkedIn creator guidance on ranking signals.</p>
+        </div>
+
+        <aside class="article-cta">
+          <p class="article-cta-text">Use LinkedIn for work. Skip the ranked feed.</p>
+          <a href="https://yvetter438.github.io/LinkedInFeedBlockerWebsite/" class="btn btn-primary">Try LinkedIn Feed Blocker</a>
+        </aside>
+
+        <nav class="related-guides" aria-label="Related reading">
+          <h2>Related reading</h2>
+          <ul>
+            <li><a href="psychology-scrolling-linkedin.html">The Psychology Behind Why You Can't Stop Scrolling LinkedIn</a></li>
+            <li><a href="linkedin-time-waste.html">How Much Time Do Professionals Actually Waste on LinkedIn?</a></li>
+          </ul>
+        </nav>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-brand">LinkedIn Feed Blocker</p>
+      <p class="footer-disclaimer">
+        LinkedIn is a trademark of LinkedIn Corporation. This extension is not affiliated with, endorsed by, or sponsored by LinkedIn Corporation.
+      </p>
+      <div class="footer-grid">
+        <nav class="footer-nav" aria-label="Site links">
+          <ul class="footer-links">
+            <li><a href="../privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="../terms-of-service.html">Terms of Service</a></li>
+            <li><a href="../support.html">Support</a></li>
+            <li><a href="../guides/index.html">Guides</a></li>
+            <li><a href="index.html">Insights</a></li>
+            <li><a href="../sitemap.html">Sitemap</a></li>
+          </ul>
+        </nav>
+        <div class="footer-col">
+          <h2 class="footer-heading">Guides</h2>
+          <ul class="footer-guide-list">
+            <li><a href="../guides/hide-linkedin-feed.html">How to hide the LinkedIn feed in Chrome</a></li>
+            <li><a href="../guides/linkedin-without-distraction.html">How to use LinkedIn without getting distracted</a></li>
+            <li><a href="../guides/linkedin-productivity.html">Why the LinkedIn feed kills productivity</a></li>
+            <li><a href="../guides/linkedin-blocker-comparison.html">Feed Blocker vs. Freedom vs. Cold Turkey</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h2 class="footer-heading">Insights</h2>
+          <ul class="footer-guide-list">
+            <li><a href="psychology-scrolling-linkedin.html">Why you can't stop scrolling LinkedIn</a></li>
+            <li><a href="linkedin-time-waste.html">How much time professionals waste on LinkedIn</a></li>
+            <li><a href="linkedin-algorithm-feed.html">How the LinkedIn feed algorithm works</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer-copy">&copy; 2026 LinkedIn Feed Blocker. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
